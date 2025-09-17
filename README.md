@@ -1,16 +1,18 @@
 # Microondas — Proyecto (LabVIEW)
 
-Este repositorio contiene el proyecto **Microondas** implementado en **LabVIEW** (con VIs, CTLs y archivo de proyecto ( misc/Micro.lvproj )). También incluye imágenes de referencia y otros archivos relacionados.
+Proyecto **Microondas** implementado en **LabVIEW** (VIs/CTLs y archivo de proyecto), con imágenes de referencia y archivos relacionados.
+
+![Vista del sistema](images/Microondas.png)
 
 ## Cómo abrir
-1. Abre el archivo de proyecto `misc/Micro.lvproj` en tu versión de **LabVIEW**.
-2. Verifica dependencias de **VI Package Manager (VIPM)** si se emplearon librerías externas.
-3. Ejecuta el VI principal desde el árbol del proyecto y confirma rutas de archivos si aplica.
+1. Abre el archivo de proyecto `labview/Micro.lvproj` en tu versión de **LabVIEW**.
+2. Si usaste librerías de **VI Package Manager (VIPM)**, instala las dependencias correspondientes.
+3. Desde el árbol del proyecto, ejecuta el **VI principal** y verifica rutas de lectura/escritura si aplica.
 
 ## Estructura breve
-- `src/labview/` — archivos `*.vi`, `*.ctl`, `*.llb`, ``
-- `docs/images/` — imágenes de referencia
-- `misc/` — archivos sin clasificar (pueden revisarse y reubicar)
+- `labview/` — VIs (`*.vi`), controles (`*.ctl`).
+- `images/` — Imágenes de referencia.
 
 ## Licencia
-Licencia **MIT** (orientada a software). Si necesitas restringir uso comercial o publicar documentación bajo CC, dímelo y preparo la variante.
+Licencia **MIT**.
+
